@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Registro</title>
+    <link rel="stylesheet" href="css/LujanMarecos.css">
+</head>
+
+<body>
+
+    <section class="header">
+        <h1>Sistema de Registro de Clientes</h1>
+        <p>Bienvenido a nuestro sistema de registro de tienda comercial!</p>
+    </section>
+
+
+<section class="card">
+    <form id="Registro">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" required placeholder="Ingrese su nombre"><br>
+        <label for="apellido">Apellido:</label> <br>
+        <input type="text" id="apellido" required placeholder="Ingrese su apellido"> <br>
+        <label for="email">Email: </label> <br>
+        <input type="email" id="email" required placeholder="correo@ejemplo.com"><br>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="+595 981 234 567">
+        <label for="ciudad">Ciudad: </label><br>
+        <input type="text" id="ciudad" placeholder="Ingrese su ciudad"><br>
+        <label for="date">Fecha de Nacimiento: </label><br>
+        <input type="date" required><br>
+
+    <button type="submit" class="btn btn-primario">Registrar</button> 
+    </form>
+</section>
+
+  <main class="container">
+    <section class="card">
+        <p>Haz click en un boton para interactuar</p>
+            <div class="btn-group"> 
+                <button id="btnAccion" class="btn btn-primario">Mostrar Mensaje</button>
+                 <button id="btnSalir" class="btn btn-secundario">Salir</button> <!-- Botón secundario con otro evento JS -->
+            </div>
+    </section>
+    </main>
+
+
+<footer class="footer">
+        <p>2026 Lujan Marecos</p>
+    </footer>
+
+
+    <script src="JavaScript/script.js"></script>
+
+
+
+</body>
+</html>

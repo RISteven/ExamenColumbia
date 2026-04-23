@@ -1,0 +1,96 @@
+/* Fuente y colores base */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+    margin: 0;
+    color: #333;
+
+    /* Layout para footer */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Encabezado */
+.header {
+    background-color: #65dc16;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 500px;
+    animation: fade 0.8s ease-in-out;
+    text-align: center;
+}
+
+.btn {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.btn-group {
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn-primario {
+    background-color: #15af6d;
+    color: #ffffff;
+}
+
+.btn-primario:hover {
+    background-color: #0ab80f;
+    transform: translateY(-2px);
+}
+
+/* Botón secundario */
+.btn-secundario {
+    background-color: #f0f4f8;
+    color: #333333;
+}
+
+.btn-secundario:hover {
+    background-color: #d9e2ec;
+    transform: translateY(-2px);
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Footer */
+.footer {
+    background-color: #30ef1f;
+    color: #000000;
+    text-align: center;
+    padding: 8px 10px;
+    font-size: 14px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+}

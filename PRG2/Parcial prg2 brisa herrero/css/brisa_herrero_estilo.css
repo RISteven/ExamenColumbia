@@ -1,0 +1,48 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(247, 247, 103);;
+}
+
+header{
+    background-color: rgb(135, 25, 25);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    
+    text-align: center;
+    box-shadow: 0 2px 3px rgb(49, 1, 1) ;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+footer{
+    background-color:rgb(135, 25, 25) ;
+    text-align: center;
+    padding: 30px;
+    color:black
+}
+
+h3{
+    color: rgb(255, 255, 255);
+}
+
+button{
+background-color: rgb(135, 25, 25);
+padding: 20px;
+color: white;
+cursor: pointer;
+}
+
+form{
+    padding: 10px;
+}
+
+
+

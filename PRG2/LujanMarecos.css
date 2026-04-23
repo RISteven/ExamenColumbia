@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #9c866f, #5bc6ad);
+    margin: 0; 
+    padding: 0; 
+    color: #2d3748;
+    text-align: center; 
+}
+
+.header {
+    background: white;
+    padding: 40px;
+    border-radius: 50px;   
+    width: 100%; 
+    max-width: 450px; 
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+    animation: fadeIn 1s ease-in-out; 
+    margin: 30px auto 20px auto;
+}
+.card {
+    background: white; 
+    padding: 50px; 
+    border-radius: 15px; 
+    width: 100%; 
+    max-width: 400px; 
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15); 
+    animation: fadeIn 0.3s ease-in-out;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.btn-group {
+    margin-top: 40px; 
+    display: flex; 
+    gap: 10px; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+.btn {
+    flex: 1; 
+    padding: 12px 30px; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer;
+    font-size: 16px; 
+    transition: 0.3s ease; 
+}
+
+.btn-primario {
+    background-color: #81e6d9; 
+    color: #064e3b;  
+}
+
+.btn-secundario {
+    background-color: #fbd5c0;
+    color: #7c2d12; 
+}
+
+.btn.btn-secundario:hover {
+    background-color: #f6ad8a; 
+}
+
+input{
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #e2e8f0; 
+    border-radius: 8px; 
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    box-sizing: border-box; 
+}
+
+input:focus {
+    outline: none;
+    border-color: #81e6d9; 
+        box-shadow: 0 0 0 2px rgba(129, 230, 217, 0.3);
+}
+
+.footer {
+    background: #d1fae5; 
+    color: #065f46; 
+    text-align: center; 
+    padding: 10px; 
+    margin-top: 10px;
+    border-radius: 100px; 
+}
+.container {
+    display: flex; 
+    justify-content: center; 
+    padding: 30px 10px; 
+}

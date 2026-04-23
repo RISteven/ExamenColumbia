@@ -1,0 +1,44 @@
+
+body {
+    font-family: 'Georgia', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #a7ceed;
+    margin: 0;
+}
+
+.header {
+    background-color: #0e426c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+form {
+    background-color: white;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+}
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #4d7aee;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+

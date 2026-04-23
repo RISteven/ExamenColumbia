@@ -1,0 +1,48 @@
+body {
+    background: #1e1e2f;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background: #2c2c3e;
+    padding: 25px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background: #00ffcc;
+    border: none;
+    cursor: pointer;
+}
+
+small {
+    color: red;
+    font-size: 12px;
+}
+
+/*
+Alumna Alejandra Cubilla
+Examen Parcial 4to 1ero
+Fecha 22/04/2026
+*/

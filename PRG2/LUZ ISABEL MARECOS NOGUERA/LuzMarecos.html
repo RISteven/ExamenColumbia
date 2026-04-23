@@ -1,0 +1,49 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Proyecto web3</title>
+            <link rel="stylesheet" href="css/styles.css">
+        </head>
+
+        <body>
+            <header class="header">
+                <h1>Tienda Comercial</h1>
+            </header>
+
+            <main class="container">
+                <section class="card">
+
+                    <h2>Formulario de Registro</h2>
+                        <form id="FormRegistro">
+                            <label>Nombre y Apellido:</label>
+                            <input type="text" id="nombre" required placeholder="Tu nombre">
+
+                            <label>Correo Electrónico:</label>
+                            <input type="email" id="CorreoElectronico" required placeholder="correo@ejemplo.com">
+
+                            <label>Telefono:</label>
+                            <input type="text" id="telefono" required placeholder="telefono">
+
+                            <label>Ciudad:</label>
+                            <input type="text" id="ciudad" required placeholder="ciudad">
+
+                            <label>Fecha de Nacimiento:</label>
+                            <input type="date" id="fecha" required>
+
+                            <button type="submit" class="btn btn-primario">Guardar</button>
+                        </form>
+                        <p id="mensaje"></p>
+                </section>
+            </main>
+
+
+            <footer class="footer">
+                <p>Luz Marecos</p>
+            </footer>
+
+            <script src="js/script.js"></script>
+
+        </body>
+        </html>

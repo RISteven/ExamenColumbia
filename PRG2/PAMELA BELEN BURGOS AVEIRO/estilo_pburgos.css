@@ -1,0 +1,42 @@
+body{
+    font-family: "Segoe UI, Arial, Arial, Helvetica";
+    background: linear-gradient (135deg, #8ff265, #e14e75);
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.header{
+    background: #638c2a;
+    color: #d9f25a;
+    padding: 0;
+    text-align: center;
+    box-shadow: 0 4px 10 px rgba(154, 87, 809);
+    padding: 40px 20px;
+    
+}
+
+.btn{
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn.guardar{
+    background-color: rgba(226, 90, 226, 0.323);
+    color: black;
+}
+
+.footer{
+    background-color: rgba(236, 114, 114, 0.385);
+    color: #222;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+@keyframes fadeIN {
+    from {opacity: 0; transform: translate();}
+}

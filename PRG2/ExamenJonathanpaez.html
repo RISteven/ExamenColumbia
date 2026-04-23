@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es"> 
+
+<image></image>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de tienda virtual</title>
+    <style>
+        body { color: rgb(10, 144, 61); font-size: 0.8em; } 
+        h2 { color: rgb(10, 144, 61); font-size: 2em; } 
+        h3 { color: rgb(10, 144, 61); font-size: 2em; } 
+
+    </style>
+</head>
+<body>
+    <center><h2>Sistema web JP </h2></center>
+     <h3>Favor completa el formulario </h3>
+
+<form id="registroForm">
+        <div>
+            <label>Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+<div>
+ <label>Correo:</label><br>
+            <input type="email" id="correo" name="correo">
+        </div>
+        <div>
+            <label>Teléfono:</label><br>
+  <input type="tel" id="telefono" name="telefono">
+        </div>
+        <div>
+            <label>Ciudad:</label><br>
+            <input type="text" id="ciudad" name="ciudad">
+        </div>
+        <div>
+    <label>Fecha Nacimiento:</label><br>
+<input type="date" id="fecha_nac" name="fecha_nac">
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script>
+        document.getElementById('registroForm').onsubmit = function(e) {
+            
+            let correo = document.getElementById('correo').value;
+
+            let telefono = document.getElementById('telefono').value;
+            
+            if (correo === "" || telefono === "") {
+                alert("Es invalido amigo por favor digita los datos reales : atte tu programador favorito ");
+                e.preventDefault();  //aca como nos pide que solo validemos que correo y telefono
+                //esten y con formato entonces solo agarramos estos dos campos si uno de los dos no esta
+                //tira error simple 
+
+            } else { alert("Registro guardado el formulario esta de 10");
+            }
+        }
+
+        
+    </script>
+
+</body>
+
+</html>
+
+
+
+

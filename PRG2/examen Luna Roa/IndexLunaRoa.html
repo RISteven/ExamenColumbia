@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de clientes</title>
+    <link rel="stylesheet" href="CSS/StyleLunaRoa.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Registro de clientes</h1>
+        <p>Estudiante Luna Roa</p>
+    </header>
+
+    <main>
+        <form id="formregistro" class="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Tu nombre completo">
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Tu email@ejemplo.com">
+
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" placeholder="Tu teléfono">
+
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad" placeholder="Tu ciudad">
+
+            <label for="fechaNacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fechaNacimiento">
+
+            <button type="submit" class="btn">Guardar</button>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div id="mensajeConfirmacion" class="mensaje"></div>
+    </footer>
+
+    <script src="JS/scriptLunaRoa.js"></script>
+</body>
+</html>

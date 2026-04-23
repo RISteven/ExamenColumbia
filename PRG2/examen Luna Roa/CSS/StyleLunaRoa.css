@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f7f0ff, #eef5ff);
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #8a79d9;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header p {
+    margin-top: 8px;
+}
+
+.formulario {
+    width: 350px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border-color: #8a79d9;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #8a79d9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: #6f5fc4;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mensaje {
+    width: 350px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    min-height: 20px;
+}
+
+.error {
+    background-color: #ffd6d6;
+    color: red;
+}
+
+.ok {
+    background-color: #d8f5d0;
+    color: green;
+}
